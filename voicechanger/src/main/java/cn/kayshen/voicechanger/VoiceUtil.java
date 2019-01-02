@@ -2,7 +2,7 @@ package cn.kayshen.voicechanger;
 
 /**
  * @author kayshen
- * @emil kayshen_xu@163.com
+ * emil kayshen_xu@163.com
  * create on 2019/1/2
  */
 public class VoiceUtil {
@@ -10,7 +10,7 @@ public class VoiceUtil {
     public static final int MODE_LORIE = 1;
     public static final int MODE_UNCLE = 2;
     public static final int MODE_TERROR = 3;
-    public static final int MODE_GHOST = 4;
+    public static final int MODE_FUNNY = 4;
     public static final int MODE_VACANT = 5;
 
     /**

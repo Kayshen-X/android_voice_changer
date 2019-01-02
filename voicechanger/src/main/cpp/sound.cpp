@@ -13,7 +13,7 @@
 #define MODE_LORIE 1
 #define MODE_UNCLE 2
 #define MODE_TERROR 3
-#define MODE_GHOST 4
+#define MODE_FUNNY 4
 #define MODE_VACANT 5
 
 using namespace FMOD;
@@ -50,24 +50,24 @@ JNIEXPORT void JNICALL Java_cn_kayshen_voicechanger_VoiceUtil_fix(JNIEnv *env,
                 //提升或者降低音调的一种音效
                 system->createDSPByType(FMOD_DSP_TYPE_PITCHSHIFT, &dsp);
                 //设置音调的参数
-                dsp->setParameterFloat(FMOD_DSP_PITCHSHIFT_PITCH, 1.8);
+                dsp->setParameterFloat(FMOD_DSP_PITCHSHIFT_PITCH, 2.0);
                 //添加进到channel，添加进轨道
                 system->playSound(sound, 0, false, &channel);
                 channel->addDSP(0, dsp);
                 break;
             case MODE_UNCLE:
                 system->createDSPByType(FMOD_DSP_TYPE_PITCHSHIFT, &dsp);
-                dsp->setParameterFloat(FMOD_DSP_PITCHSHIFT_PITCH, 0.8);
+                dsp->setParameterFloat(FMOD_DSP_PITCHSHIFT_PITCH, 0.5);
                 system->playSound(sound, 0, false, &channel);
                 channel->addDSP(0, dsp);
                 break;
             case MODE_TERROR:
                 system->createDSPByType(FMOD_DSP_TYPE_TREMOLO, &dsp);
-                dsp->setParameterFloat(FMOD_DSP_TREMOLO_SKEW, 0.8);
+                dsp->setParameterFloat(FMOD_DSP_TREMOLO_SKEW, 0.5);
                 system->playSound(sound, 0, false, &channel);
                 channel->addDSP(0, dsp);
                 break;
-            case MODE_GHOST:
+            case MODE_FUNNY:
                 //提高说话的速度
                 system->playSound(sound, 0, false, &channel);
                 channel->getFrequency(&frequency);
