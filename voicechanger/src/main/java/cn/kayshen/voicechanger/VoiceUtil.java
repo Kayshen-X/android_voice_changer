@@ -1,5 +1,9 @@
 package cn.kayshen.voicechanger;
 
+import android.content.Context;
+
+import org.fmod.FMOD;
+
 /**
  * @author kayshen
  * emil kayshen_xu@163.com
@@ -20,6 +24,14 @@ public class VoiceUtil {
      * @param type 音频文件类型
      */
     public native static void fix(String path, int type);
+
+    public static void initSDK(Context context){
+        FMOD.init(context);
+    }
+
+    public static void destorySDK(){
+        FMOD.close();
+    }
 
     static {
         System.loadLibrary("fmodL");
