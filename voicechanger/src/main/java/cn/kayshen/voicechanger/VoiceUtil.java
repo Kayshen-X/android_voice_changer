@@ -12,8 +12,8 @@ import org.fmod.FMOD;
 public class VoiceUtil {
     public static final int MODE_NORMAL = 0;
     public static final int MODE_LORIE = 1;
-    public static final int MODE_UNCLE = 2;
-    public static final int MODE_TERROR = 3;
+    public static final int MODE_TERROR = 2;
+    public static final int MODE_UNCLE = 3;
     public static final int MODE_FUNNY = 4;
     public static final int MODE_VACANT = 5;
 

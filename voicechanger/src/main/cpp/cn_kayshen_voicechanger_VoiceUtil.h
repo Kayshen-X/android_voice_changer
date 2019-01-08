@@ -11,10 +11,10 @@ extern "C" {
 #define cn_kayshen_voicechanger_VoiceUtil_MODE_NORMAL 0L
 #undef cn_kayshen_voicechanger_VoiceUtil_MODE_LORIE
 #define cn_kayshen_voicechanger_VoiceUtil_MODE_LORIE 1L
-#undef cn_kayshen_voicechanger_VoiceUtil_MODE_UNCLE
-#define cn_kayshen_voicechanger_VoiceUtil_MODE_UNCLE 2L
 #undef cn_kayshen_voicechanger_VoiceUtil_MODE_TERROR
-#define cn_kayshen_voicechanger_VoiceUtil_MODE_TERROR 3L
+#define cn_kayshen_voicechanger_VoiceUtil_MODE_TERROR 2L
+#undef cn_kayshen_voicechanger_VoiceUtil_MODE_UNCLE
+#define cn_kayshen_voicechanger_VoiceUtil_MODE_UNCLE 3L
 #undef cn_kayshen_voicechanger_VoiceUtil_MODE_FUNNY
 #define cn_kayshen_voicechanger_VoiceUtil_MODE_FUNNY 4L
 #undef cn_kayshen_voicechanger_VoiceUtil_MODE_VACANT

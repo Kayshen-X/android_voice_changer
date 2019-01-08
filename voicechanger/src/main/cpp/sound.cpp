@@ -11,8 +11,8 @@
 
 #define MODE_NORMAL 0
 #define MODE_LORIE 1
-#define MODE_UNCLE 2
-#define MODE_TERROR 3
+#define MODE_TERROR 2
+#define MODE_UNCLE 3
 #define MODE_FUNNY 4
 #define MODE_VACANT 5
 

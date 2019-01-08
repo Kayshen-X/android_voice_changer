@@ -6,7 +6,7 @@ publish {
     repoName = 'VoiceChanger'//要传到的maven的名字。你可能有多个maven，要传哪个写哪个。
     groupId = 'cn.kayshen'//jcenter上的路径
     artifactId = 'VoiceChanger'//项目名称
-    publishVersion = '0.0.3'//版本号
+    publishVersion = '0.0.4'//版本号
     desc = 'voice changer for android'//描述，不重要
     website = 'https://github.com/Kayshen-X/android_voice_changer'//网站，不重要；尽量模拟github上的地址
 }
